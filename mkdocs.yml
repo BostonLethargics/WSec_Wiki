@@ -1,0 +1,19 @@
+site_name: WSec Wiki
+site_url: https://sitename.example
+theme:
+  name: material
+  palette:
+    scheme: default  
+    primary: grey
+  logo: assets/wseciconstripes1.png
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+
+extra_css:
+  - assets/stylesheets/extra.css
+
