@@ -38,3 +38,72 @@ power it.
     ![Screenshot](assets/holdingmodule.png)
     !!! failure "Global NDZ-Bug"
         Should you get a promt saying "you are in a no-deploy zone" despite being outside the red circles drawn within the minimap, you unfortunately have contracted the <b>global no-deploy zone</b> bug which requires you to restart the game before being able to place any construction modules.
+
+
+<div style="
+    float:right;
+    margin:0 1.5rem 1rem 0.5rem;
+    border:1px solid var(--md-default-fg-color--lightest);
+    border-radius:1px;
+    padding:2rem 1rem;
+    text-align:center;
+    box-shadow:0 1px 2px rgba(0,0,0,.1);
+">
+  <img src="../assets/commandcenter.png" alt="commandcenter.png">
+</div>
+
+Sufficiently filled cortium silos are usually found at larger construction bases further away from the frontlines. 
+A good tip would be to search for <b>command centers</b> within the map screen's spawn list.
+
+Obviously spawns provided by <b>rebirthing centers</b> or <b>elysium spawn tubes</b> can also have well filled cortium silos nearby. Note that listed spawn entries 
+feature small icons depicting which terminals are nearby for use:
+
+<div style="
+  border:1px solid var(--md-default-fg-color--lightest);
+  border-radius:8px;
+  padding:1rem;
+  text-align:center;
+  box-shadow:0 2px 4px rgba(0,0,0,.1);
+">
+  <img src="../assets/commandcenter2.png" alt="commandcenter.png">
+</div>
+
+!!! note "Aircraft terminal availability"
+    It generally recommended to source construction modules from bases which feature local aircraft terminals. That way aircraft can be pulled quickly at a discounted nanite in order to fly out the modules to the desired location.
+
+
+### Conducting the Router drop
+
+<table>
+  <thead>
+    <tr>
+      <th></th>
+      <th align="center">Iteration 1</th>
+      <th align="center">Iteration 2</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+       <td style="text-align:center; vertical-align:middle;">Player 1</td>
+      <td align="center">
+        <img src="../assets/Cortium_Silo.webp" alt="Cortium Silo"><br>
+        Cortium Silo
+      </td>
+      <td align="center">
+        <img src="../assets/Routing_Spire.webp" alt="Routing Spire"><br>
+        Routing Spire
+      </td>
+    </tr>
+    <tr>
+       <td style="text-align:center; vertical-align:middle;">Player 2</td>
+      <td align="center">
+        <img src="../assets/Routing_Spire.webp" alt="Beispiel 1"><br>
+        Routing Spire
+      </td>
+      <td align="center">
+        <img src="../assets/Cortium_Silo.webp" alt="Beispiel 2"><br>
+        Cortium Silo
+      </td>
+    </tr>
+  </tbody>
+</table> 

@@ -13,6 +13,17 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.tabbed:
       alternate_style: true
+  - attr_list
+  - md_in_html
+
+plugins:
+  - search
+  - glightbox:
+      touchNavigation: true
+      loop: false
+      width: 90%
+      height: auto
+
 
 extra_css:
   - assets/stylesheets/extra.css
