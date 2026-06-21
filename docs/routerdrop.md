@@ -69,10 +69,68 @@ feature small icons depicting which terminals are nearby for use:
 </div>
 
 !!! note "Aircraft terminal availability"
-    It generally recommended to source construction modules from bases which feature local aircraft terminals. That way aircraft can be pulled quickly at a discounted nanite in order to fly out the modules to the desired location.
+    It generally is recommended to source construction modules from bases which feature local aircraft terminals. That way aircraft can be pulled quickly at a discounted nanite cost in order to fly out the modules to the desired location.
 
 
 ### Conducting the Router drop
+
+The average procedure which plays out in most router drops is laid out in the flow chart below. For clarity's sake, follow along the <b><span style="color:#ffaa00">tan colored</span></b> path as it lays out a router drop procedure with no complications coming up.
+
+Cells containing an information symbol <b>ⓘ</b> have annotations below proving further context. 
+
+```mermaid
+graph TB
+  A(Locate Silo)
+  B{<b><span style="font-size:32px">ⓘ</span></b><br>Verify absence of global NDZ}
+  C[Grab Silo and Spire]
+  D[Restart the Game]
+  E[Fly to a 500m vicinity of facility to be attacked]
+  F{Too close to other deployables?}
+  G[Place Modules]
+  H(Spire player grabs and places router)
+
+  I[<b><span style="font-size:32px">ⓘ</span></b><br>Mark Silo with STO]
+  J[Find another drop location]
+  L[<b><span style="font-size:32px">ⓘ</span></b><br>Destroy enemy spire and replace it with your own <b>parasitic spire</b>]
+
+
+  A --> B
+  B -->|no bug present| C
+  C -->|for squad leads| I 
+  B -->|NDZ-bug present| D
+  D --> B
+  C --> E
+  E --> F
+  F -->|Yes, allied base obstructing <b>OR</b> guarded enemy base| J
+  J --> G
+  F -->|Yes, unguarded enemy base obstructing| L
+  L --> G
+  F -->|no nearby deployables| G
+  G -->|Modules finished constructing?| H
+
+  classDef main fill:#ffe1a6,stroke:#000000;
+  class A,B,C,E,F,G,H main;
+
+  linkStyle 1 stroke:#000000,stroke-width:4px;
+  linkStyle 0 struoke:#000000,stroke-width:4px;
+  linkStyle 5 stroke:#000000,stroke-width:4px;
+  linkStyle 6 stroke:#000000,stroke-width:4px;
+  linkStyle 11 stroke:#000000,stroke-width:4px;
+  linkStyle 12 stroke:#000000,stroke-width:4px;
+```
+
+??? info "Verifying global NDZ abscence"
+    bruh
+
+??? info "Squad Tactical Overlays (STO's)"
+    nerd shit
+
+??? info "Parasitic routing spires"
+    how rude
+
+### Consecutive Drops
+
+Functional construction modules such as silos and spires have adjacency limitations as well as being limited to <b>one placed module per character</b>.
 
 <table>
   <thead>
@@ -107,3 +165,11 @@ feature small icons depicting which terminals are nearby for use:
     </tr>
   </tbody>
 </table> 
+
+### Router Network
+
+### Post-Plant
+
+## Advanced Variants (3+ Players)
+
+### Construction drop coordinator

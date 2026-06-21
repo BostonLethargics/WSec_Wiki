@@ -1,6 +1,6 @@
 # Welcome to the WSec Wiki!
 
-Shitass update ruined the game
+Shitass updates ruined the game
 
 ## the amount of cringe is unbearable
 
