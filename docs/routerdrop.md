@@ -49,7 +49,7 @@ power it.
     text-align:center;
     box-shadow:0 1px 2px rgba(0,0,0,.1);
 ">
-  <img src="../assets/commandcenter.png" alt="commandcenter.png">
+  <img src="../assets/commandcenter.webp" alt="commandcenter.webp">
 </div>
 
 Sufficiently filled cortium silos are usually found at larger construction bases further away from the frontlines. 
@@ -65,7 +65,7 @@ feature small icons depicting which terminals are nearby for use:
   text-align:center;
   box-shadow:0 2px 4px rgba(0,0,0,.1);
 ">
-  <img src="../assets/commandcenter2.png" alt="commandcenter.png">
+  <img src="../assets/commandcenter2.webp" alt="commandcenter.webp">
 </div>
 
 !!! note "Aircraft terminal availability"
