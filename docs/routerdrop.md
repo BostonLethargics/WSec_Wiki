@@ -21,23 +21,23 @@ Construction modules can be aquired from <b>cortium silo terminals</b> or from <
 amount of modules required for aquiring a router are the <b>routing spire</b> as well as a nearby <b>cortium silo</b> to 
 power it.
 
-=== "Image: Terminals"
+<!--=== "Image: Terminals"-->
 
-    ![Screenshot](assets/constructionterminals.png)
-    !!! warning "Silo storage & reserved mode"
-        Cortium silos feature an indicator for their amount of stored cortium. Should the amount of cortium drop below a certain threshold <i>(less than 4 squares on the indicator)</i>, the silo will enter reseved mode and bar access to any player that <b>isn't in a squad with the silos constructor</b>!
+![Screenshot](assets/constructionterminals.webp)
+!!! warning "Silo storage & reserved mode"
+     Cortium silos feature an indicator for their amount of stored cortium. Should the amount of cortium drop below a certain threshold <i>(less than 4 squares on the indicator)</i>, the silo will enter reseved mode and bar access to any player that <b>isn't in a squad with the silos constructor</b>!
 
-=== "Image: Construction Menu"
+<!--=== "Image: Construction Menu"-->
 
-    ![Screenshot](assets/constructionmenu.png)
-    !!! info "Construction menu navigation"
-        The <b>cortium silo</b> can be found within the <b>CORE</b> tab. The routing spire is located under <b>SPIRES</b>. Click the star icon located within the yellow circle to favourite the modules, causing them to be listed in <b>FAVOURITES</b>.
+![Screenshot](assets/constructionmenu.webp)
+!!! info "Construction menu navigation"
+    The <b>cortium silo</b> can be found within the <b>CORE</b> tab. The routing spire is located under <b>SPIRES</b>. Click the star icon located within the yellow circle to favourite the modules, causing them to be listed in <b>FAVOURITES</b>.
 
-=== "Image: Holding module"
+<!--=== "Image: Holding module"-->
 
-    ![Screenshot](assets/holdingmodule.png)
-    !!! failure "Global NDZ-Bug"
-        Should you get a promt saying "you are in a no-deploy zone" despite being outside the red circles drawn within the minimap, you unfortunately have contracted the <b>global no-deploy zone</b> bug which requires you to restart the game before being able to place any construction modules.
+![Screenshot](assets/holdingmodule.webp)
+!!! failure "Global NDZ-Bug"
+    Should you get a promt saying "you are in a no-deploy zone" despite being outside the red circles drawn within the minimap, you unfortunately have contracted the <b>global no-deploy zone</b> bug which requires you to restart the game before being able to place any construction modules.
 
 
 <div style="
